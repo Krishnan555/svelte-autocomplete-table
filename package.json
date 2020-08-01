@@ -1,0 +1,29 @@
+{
+  "name": "svelte-autocomplete-table",
+  "version": "1.0.3",
+  "description": "Table with autocomplete , sorting and filtering based on column values.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "svelte": "src/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "keywords": [
+    "svelte",
+    "autocomplete",
+    "svelte3",
+    "svelte-components",
+    "autocomplete-table",
+    "auto complete",
+    "svelte-autocomplete-table",
+    "svelte-table"],
+  "author": "Krishnan B",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.23.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^5.2.3",
+    "svelte": "^3.24.0"
+  }
+}
